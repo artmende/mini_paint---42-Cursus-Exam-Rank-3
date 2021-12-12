@@ -6,21 +6,21 @@
 /*   By: artmende <artmende@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 18:28:05 by artmende          #+#    #+#             */
-/*   Updated: 2021/12/12 02:05:00 by artmende         ###   ########.fr       */
+/*   Updated: 2021/12/12 02:19:05 by artmende         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MINI_PAINT_H
 # define MINI_PAINT_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <math.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <unistd.h>
+# include <string.h>
+# include <math.h>
 
-#define ERROR_ARG "Error: argument\n"
-#define ERROR_CORRUPTED "Error: Operation file corrupted\n"
+# define ERROR_ARG "Error: argument\n"
+# define ERROR_CORRUPTED "Error: Operation file corrupted\n"
 
 typedef struct s_circle
 {

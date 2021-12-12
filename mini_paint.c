@@ -6,7 +6,7 @@
 /*   By: artmende <artmende@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 18:30:36 by artmende          #+#    #+#             */
-/*   Updated: 2021/12/12 02:04:49 by artmende         ###   ########.fr       */
+/*   Updated: 2021/12/12 02:18:15 by artmende         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_strlen(char *str)
 	int	i;
 
 	i=0;
-	while(str && str[i])
+	while (str && str[i])
 		i++;
 	return (i);
 }
@@ -118,7 +118,6 @@ void	draw_circle(t_circle circle, char *result, t_size size)
 	}
 }
 
-
 int	main(int argc, char **argv)
 {
 	FILE		*op_file;
@@ -153,7 +152,7 @@ int	main(int argc, char **argv)
 	if (error)
 	{
 		fclose(op_file);
-		return(display_error_msg(ERROR_CORRUPTED));
+		return (display_error_msg(ERROR_CORRUPTED));
 	}
 	display_result(result, size);
 	fclose(op_file);
