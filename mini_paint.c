@@ -6,7 +6,7 @@
 /*   By: artmende <artmende@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 18:30:36 by artmende          #+#    #+#             */
-/*   Updated: 2021/12/12 02:18:15 by artmende         ###   ########.fr       */
+/*   Updated: 2021/12/12 02:24:42 by artmende         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,7 +100,7 @@ void	draw_circle(t_circle circle, char *result, t_size size)
 	int	x = 0;
 	int	y = 0;
 
-	if (circle.radius < 0 || circle.symb < 0 || circle.radius <= 0)
+	if (circle.radius <= 0 || circle.symb < 0)
 	{
 		error = 1;
 		return ;
