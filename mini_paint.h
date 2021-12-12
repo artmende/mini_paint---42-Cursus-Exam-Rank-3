@@ -6,7 +6,7 @@
 /*   By: artmende <artmende@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 18:28:05 by artmende          #+#    #+#             */
-/*   Updated: 2021/12/12 01:03:23 by artmende         ###   ########.fr       */
+/*   Updated: 2021/12/12 02:05:00 by artmende         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ typedef struct s_circle
 	float	radius;
 	float	cx;
 	float	cy;
-
 }	t_circle;
 
 typedef struct s_size

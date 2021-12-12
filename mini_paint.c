@@ -6,7 +6,7 @@
 /*   By: artmende <artmende@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 18:30:36 by artmende          #+#    #+#             */
-/*   Updated: 2021/12/12 01:52:32 by artmende         ###   ########.fr       */
+/*   Updated: 2021/12/12 02:04:49 by artmende         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ int	ft_strlen(char *str)
 
 int	display_error_msg(char *str)
 {
-	(void)str;
 	write(1, str, ft_strlen(str));
 	return (1);
 }
